@@ -14,7 +14,7 @@ const Dashboard = () => {
             "Content-Type": "multipart/form-data"}
           
         //   axios.get(url, { headers });
-          const url = "https://mernback-6nkm.onrender.com/auth/verify";
+          const url = "https://mernback2-vbd8.onrender.com/auth/verify";
           axios.get(url, { headers })
         // axios.get('http://localhost:3001/auth/verify')
         .then(res=> {

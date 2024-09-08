@@ -27,7 +27,7 @@ function Home() {
             handleError("All fields are required")
         }
         else{
-        axios.post("https://mernback-6nkm.onrender.com/products/addproducts", { name, price, category }).then(
+        axios.post("https://mernback2-vbd8.onrender.com/products/addproducts", { name, price, category }).then(
             res => {
                 console.log(res, "poost")
                 // handleSuccess("Product added Successfully");
@@ -48,7 +48,7 @@ function Home() {
     }
     const fetchProducts = async () => {
         try {
-            axios.get("https://mernback-6nkm.onrender.com/products/getproducts")
+            axios.get("https://mernback2-vbd8.onrender.com/products/getproducts")
                 .then(res =>
                     setProducts(res.data.data.products)
                 )

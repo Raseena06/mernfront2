@@ -27,7 +27,7 @@ function Login() {
             return handleError('email and password are required')
         }
         try {
-            const url = `https://mernback-6nkm.onrender.com/auth/login`;
+            const url = `https://mernback2-vbd8.onrender.com/auth/login`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {

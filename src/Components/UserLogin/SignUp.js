@@ -28,7 +28,7 @@ function SignUp() {
             return handleError('name, email and password are required')
         }
         try {
-            const url = `https://mernback-6nkm.onrender.com/auth/signup`;
+            const url = `https://mernback2-vbd8.onrender.com/auth/signup`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {

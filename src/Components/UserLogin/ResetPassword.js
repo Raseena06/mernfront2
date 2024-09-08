@@ -38,7 +38,7 @@ function ResetPassword() {
             // Axios.put("http://localhost:3001/auth/reset-password/" + id + "/" + token, {
             //     password,
             // })
-            Axios.put("https://mernback-6nkm.onrender.com/auth/reset-password/" + token, {
+            Axios.put("https://mernback2-vbd8.onrender.com/auth/reset-password/" + token, {
                 password,
             }) .then(response => {
                     console.log(response, "resppppppp")

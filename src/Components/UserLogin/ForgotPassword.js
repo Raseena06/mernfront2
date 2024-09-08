@@ -40,7 +40,7 @@ function ForgotPassword() {
             try{
             var options = {
                 method: 'POST',
-                url: 'https://mernback-6nkm.onrender.com/auth/forgot-password',
+                url: 'https://mernback2-vbd8.onrender.com/auth/forgot-password',
                 headers: {'content-type': 'application/json'},
                 data: {
                  email:email
