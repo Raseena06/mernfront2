@@ -1,0 +1,80 @@
+.prodContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    // height: inherit;
+}
+
+.prodItems {
+    flex: 1 1 392px;
+    background: #fff;
+    margin: 10px;
+    box-shadow: 8px 8px 24px 0px rgba(96, 8, 40, 1);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.addProd{
+    background: sienna;
+    margin: 10px;
+}
+.container {
+    // display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.formCenter {
+    background-color: #FFF;
+   
+}
+
+.formCenter>h1 {
+    margin-bottom: 20px;
+}
+
+.formCenter>form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formCenter div {
+    display: flex;
+    flex-direction: column;
+}
+
+.formCenter input {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+}
+
+.formCenter input::placeholder {
+    font-size: 12px;
+    font-style: italic;
+}
+button{
+    background-color: purple;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 0;
+  }

@@ -1,0 +1,12 @@
+ @use   '../../utils/variables' as * ;
+// @use '../../utils/breakpoints' as *;
+// @use '../../utils/mixins' as *;
+// @import '~bootstrap/scss/bootstrap';
+
+// body {
+//     color: v.$primary-color;
+// } */
+.t1{
+     color: $primary-color;
+    font-size: 50px;
+}

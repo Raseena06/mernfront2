@@ -1,0 +1,47 @@
+//small screen
+@mixin sm1 {
+    @media (min-width : 340px) {
+        @content
+    }
+};
+@mixin sm2 {
+    @media (min-width : 440px) {
+        @content
+    }
+};
+
+// small medium screen
+@mixin smd {
+    @media (min-width : 608px) {
+        @content
+    }
+};
+
+//medium screen
+@mixin md {
+    @media (min-width : 768px) {
+        @content
+    }
+};
+
+//medium large screen
+@mixin mlg {
+    @media (min-width : 992px) {
+        @content
+    }
+};
+
+
+//large screen
+@mixin lg {
+    @media (min-width : 1024px) {
+        @content
+    }
+};
+
+//extra large screen
+@mixin xlg {
+    @media (min-width : 1440px) {
+        @content
+    }
+}

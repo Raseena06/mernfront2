@@ -1,0 +1,15 @@
+@mixin flex-row($gap : 1rem){
+    display: flex;
+    flex-direction: row;
+    gap: $gap;
+}
+@mixin flex-row-reverse($gap : 1rem){
+    display: flex;
+    flex-direction: row-reverse;
+    gap: $gap;
+}
+@mixin font($color : red){
+    color: $color;
+    font: 20px;
+    font-family: sans-serif;
+}
